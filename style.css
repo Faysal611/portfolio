@@ -1,0 +1,120 @@
+.open-sans-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("images/developer.png"), url(images/header_bg.png);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 70px 30px 150px;
+}
+
+.mary {
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul li button {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 64px;
+    border-radius: 7px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-text {
+    max-width: 585px;
+    margin-left: 150px;
+}
+.greet {
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+.name {
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.quote {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cv {
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 7px;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.mary-img {
+    width: 584px;
+    height: 676;
+    margin-right: 38px;
+}
+
+/* shared css */
+.primary-color {
+    color: rgb(253, 110, 10);
+}
+
+.light-dark {
+    color: rgb(71, 71, 71);
+}
+
+.background-color {
+    background-color: rgb(253, 110, 10);
+}
